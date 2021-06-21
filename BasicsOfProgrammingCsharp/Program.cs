@@ -16,7 +16,16 @@ namespace BasicsOfProgrammingCsharp
         //method with static modifier
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TypesAndVariables.ValueTypes();
+
+            Student std1 = new Student();
+
+            std1.StudentName = "Bill";
+
+            string name = "Bill";
+            TypesAndVariables.ReferenceType(name, std1);
+
+            Console.WriteLine(name + " " + std1.StudentName);
         }
 
         // {} -> this is block of code
