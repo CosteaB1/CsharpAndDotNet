@@ -26,6 +26,12 @@ namespace BasicsOfProgrammingCsharp
             TypesAndVariables.ReferenceType(name, std1);
 
             Console.WriteLine(name + " " + std1.StudentName);
+
+            Console.WriteLine(ArithmeticOperations.DivisonP(10, 3));
+            ArithmeticOperations.IncrementOperation();
+            ArithmeticOperations.DecrementOperation();
+            ArithmeticOperations.AssignmentOperations();
+
         }
 
         // {} -> this is block of code

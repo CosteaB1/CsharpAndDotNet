@@ -29,6 +29,46 @@ namespace BasicsOfProgrammingCsharp
             }
             Console.WriteLine(i);
             ChangeValue(i);
+
+            // Numbers 
+            //The byte data type stores numbers from 0 to 255, It occupies 8-bit in the memory.
+            byte b1 = 255;
+            byte b2 = 0;
+
+            //The short data type is a signed integer that can store numbers from -32,768 to 32,767. It occupies 16-bit memory
+            short s1 = -32768;
+            short s2 = 32767;
+
+            //The int data type is 32-bit signed integer. It can store numbers from -2,147,483,648 to 2,147,483,647
+            int ii = -2147483648;
+            int j = 2147483647;
+
+            //The int data type is also used for hexadecimal and binary numbers. A hexadecimal number starts with 0x or 0X prefix. C# 7.2 onwards, a binary number starts with 0b or 0B.
+            int hex = 0x2F;
+            int binary = 0b_0010_1111;
+
+            Console.WriteLine(hex);
+            Console.WriteLine(binary);
+
+            //The long type is 64-bit signed integers. It can store numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+            long l1 = -9223372036854775808;
+            long l2 = 9223372036854775807;
+
+            //Floating-point numbers are positive or negative numbers with one or more decimal points. 
+            //C# includes three data types for floating-point numbers: float, double, and decimal.
+            float f1 = 123456.5F;
+            float f2 = 1.123456f;
+            double d1 = 12345678912345.5d;
+            double d2 = 1.123456789123456d;
+            decimal d11 = 123456789123456789123456789.5m;
+            decimal d22 = 1.1234567891345679123456789123m;
+
+            // bool -> true, false 
+            bool alive = true;
+            bool isDead = false;
+
+            //char stores a single Unicode character and takes 2 bytes
+            char a = 'A';
         }
         public static void ReferenceType(string name, Student std1) // or Reference types
         {
